@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- *
  * main - entry point
  *
  * Return: alway returns 0
@@ -13,7 +12,7 @@ int main(void)
 	for (a = 'a'; a <= 'z' ; a++)
 		putchar(a);
 	for (a = 'A'; a <= 'Z'; a++)
-		putcahr(a);
+		putchar(a);
 	putchar('\n');
 	return (0);
 }

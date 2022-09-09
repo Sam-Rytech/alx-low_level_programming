@@ -10,7 +10,7 @@ int main(void)
 	char a;
 	
 	for (a = 'a'; a <= 'z' ; a++)
-		puthcar(a);
+		putchar(a);
 	putchar('\n');
 	return (0);
 }

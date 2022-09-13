@@ -1,11 +1,11 @@
-#ifndef _MAIN_H_
-#define _MAIN_H_
+#ifndef HOLBERTON_H_INCLUDED_
+#define HOLBERTON_H_INCLUDED
 /**
  * _putchar - writes the character c to std
  * @c: parameter to compare
  * Return: 1 or 0
  */
-int _putchar(char c);
+int _putchar(char);
 /**
  * print_alphabet - function to print alphabet
  *
@@ -63,7 +63,7 @@ void times_table(void);
  * @int: integers to add
  * Return: returns a sum
  */
-int add(int, int);
+int add(int a, int b);
 /**
  * print_to_98 - prints to 98
  * @n: integer to start at
@@ -76,4 +76,5 @@ void print_to_98(int n);
  *
  */
 void print_times_table(int n);
+void num (int r, int n);
 #endif

@@ -1,1 +1,0 @@
-Task on function pointers
